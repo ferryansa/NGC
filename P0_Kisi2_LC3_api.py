@@ -3,7 +3,7 @@ import pandas as pd
 
 api_lc3 = FastAPI()
 
-df = pd.read_csv("data_after_outlier_handling.csv")
+df = pd.read_csv("P0_Kisi2_LC3_data_after_outlier_handling.csv")
 
 df_dict = df.to_dict(orient="records")
 
